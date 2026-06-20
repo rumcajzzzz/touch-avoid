@@ -61,7 +61,7 @@ export default function AvoidButtonPage() {
     stiffness: 150,
     damping: 16,
     mass: 0.6
-  };
+  } as const;
 
   return (
     <main className="flex flex-col min-h-screen justify-center align-center bg-[#120621] text-white font-sans overflow-hidden select-none">
